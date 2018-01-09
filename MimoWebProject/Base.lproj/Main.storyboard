@@ -58,6 +58,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D1n-fW-CR6">
                                 <rect key="frame" x="166" y="318" width="43" height="30"/>
                                 <state key="normal" title="Guess"/>
+                                <connections>
+                                    <action selector="guess:" destination="AZm-uq-ubC" eventType="touchUpInside" id="2YE-eC-DRq"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ffK-EM-Tcv">
                                 <rect key="frame" x="139" y="280" width="97" height="30"/>
@@ -79,6 +82,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ppo-Z0-6zS"/>
                     </view>
+                    <connections>
+                        <outlet property="inputField" destination="ffK-EM-Tcv" id="Ibz-dz-BHY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lUI-10-4j4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
