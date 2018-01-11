@@ -72,6 +72,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h5y-7D-Z2J">
+                                <rect key="frame" x="166" y="251" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -79,10 +85,13 @@
                             <constraint firstItem="D1n-fW-CR6" firstAttribute="centerY" secondItem="Owo-EL-LZP" secondAttribute="centerY" id="IMM-TE-F61"/>
                             <constraint firstItem="ffK-EM-Tcv" firstAttribute="centerX" secondItem="Owo-EL-LZP" secondAttribute="centerX" id="NsF-uV-9wd"/>
                             <constraint firstItem="D1n-fW-CR6" firstAttribute="centerX" secondItem="Owo-EL-LZP" secondAttribute="centerX" id="TCR-sS-atN"/>
+                            <constraint firstItem="h5y-7D-Z2J" firstAttribute="centerX" secondItem="Owo-EL-LZP" secondAttribute="centerX" id="mwe-Mu-W1S"/>
+                            <constraint firstItem="ffK-EM-Tcv" firstAttribute="top" secondItem="h5y-7D-Z2J" secondAttribute="bottom" constant="8" id="z5E-qU-p33"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ppo-Z0-6zS"/>
                     </view>
                     <connections>
+                        <outlet property="hintLabel" destination="h5y-7D-Z2J" id="DSe-iu-EhG"/>
                         <outlet property="inputField" destination="ffK-EM-Tcv" id="Ibz-dz-BHY"/>
                     </connections>
                 </viewController>
