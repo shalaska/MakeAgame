@@ -15,6 +15,7 @@
 		7C331E222004CB230038077B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C331E202004CB230038077B /* LaunchScreen.storyboard */; };
 		7C331E2D2004CB240038077B /* MimoWebProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C331E2C2004CB240038077B /* MimoWebProjectTests.swift */; };
 		7C331E382004CB240038077B /* MimoWebProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C331E372004CB240038077B /* MimoWebProjectUITests.swift */; };
+		7C5707562006838F007EA1D7 /* RandomizlyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5707552006838F007EA1D7 /* RandomizlyModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7C331E332004CB240038077B /* MimoWebProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MimoWebProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C331E372004CB240038077B /* MimoWebProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MimoWebProjectUITests.swift; sourceTree = "<group>"; };
 		7C331E392004CB240038077B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C5707552006838F007EA1D7 /* RandomizlyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomizlyModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				7C331E172004CB230038077B /* AppDelegate.swift */,
 				7C331E192004CB230038077B /* MenuViewController.swift */,
 				7C15B2672004D321005E74E6 /* GameViewController.swift */,
+				7C5707552006838F007EA1D7 /* RandomizlyModel.swift */,
 				7C331E1B2004CB230038077B /* Main.storyboard */,
 				7C331E1E2004CB230038077B /* Assets.xcassets */,
 				7C331E202004CB230038077B /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				7C331E1A2004CB230038077B /* MenuViewController.swift in Sources */,
 				7C15B2682004D321005E74E6 /* GameViewController.swift in Sources */,
+				7C5707562006838F007EA1D7 /* RandomizlyModel.swift in Sources */,
 				7C331E182004CB230038077B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
