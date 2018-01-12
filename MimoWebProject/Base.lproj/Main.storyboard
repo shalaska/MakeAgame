@@ -31,17 +31,30 @@
                                     <segue destination="AZm-uq-ubC" kind="show" id="SoN-Lh-YHg"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created by Mimo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C9p-pP-NsB">
+                                <rect key="frame" x="122" y="597" width="131" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="ifm-11-weL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3Ld-Cu-O9J"/>
                             <constraint firstItem="aQh-Uh-u29" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7Mb-D0-yQb"/>
+                            <constraint firstItem="C9p-pP-NsB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="I6F-eH-XJb"/>
                             <constraint firstItem="ifm-11-weL" firstAttribute="top" secondItem="aQh-Uh-u29" secondAttribute="bottom" constant="8" id="Mo3-VT-GF2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="C9p-pP-NsB" secondAttribute="bottom" constant="49" id="X6P-Hu-2kl"/>
+                            <constraint firstItem="C9p-pP-NsB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="122" id="XrS-l7-jMJ"/>
                             <constraint firstItem="aQh-Uh-u29" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="eKv-3H-ghk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="C9p-pP-NsB" secondAttribute="trailing" constant="122" id="xGa-r3-iWP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="Btq-wY-Txi"/>
+                    <connections>
+                        <outlet property="createdByLabel" destination="C9p-pP-NsB" id="8e4-E6-r0f"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
