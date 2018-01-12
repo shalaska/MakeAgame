@@ -78,14 +78,24 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I'm thinking of a number between 1 and 100. Can you guess it?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HAO-LJ-X4l">
+                                <rect key="frame" x="8" y="72" width="359" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="D1n-fW-CR6" firstAttribute="top" secondItem="ffK-EM-Tcv" secondAttribute="bottom" constant="8" id="2v9-Bj-M1b"/>
+                            <constraint firstItem="HAO-LJ-X4l" firstAttribute="top" secondItem="ppo-Z0-6zS" secondAttribute="top" constant="8" id="8G1-10-sw7"/>
+                            <constraint firstItem="HAO-LJ-X4l" firstAttribute="leading" secondItem="ppo-Z0-6zS" secondAttribute="leading" constant="8" id="GjO-wA-C23"/>
                             <constraint firstItem="D1n-fW-CR6" firstAttribute="centerY" secondItem="Owo-EL-LZP" secondAttribute="centerY" id="IMM-TE-F61"/>
                             <constraint firstItem="ffK-EM-Tcv" firstAttribute="centerX" secondItem="Owo-EL-LZP" secondAttribute="centerX" id="NsF-uV-9wd"/>
                             <constraint firstItem="D1n-fW-CR6" firstAttribute="centerX" secondItem="Owo-EL-LZP" secondAttribute="centerX" id="TCR-sS-atN"/>
+                            <constraint firstItem="ppo-Z0-6zS" firstAttribute="trailing" secondItem="HAO-LJ-X4l" secondAttribute="trailing" constant="8" id="ZDY-LV-TEt"/>
                             <constraint firstItem="h5y-7D-Z2J" firstAttribute="centerX" secondItem="Owo-EL-LZP" secondAttribute="centerX" id="mwe-Mu-W1S"/>
+                            <constraint firstItem="HAO-LJ-X4l" firstAttribute="top" secondItem="ppo-Z0-6zS" secondAttribute="top" constant="8" id="yUC-ND-hTb"/>
                             <constraint firstItem="ffK-EM-Tcv" firstAttribute="top" secondItem="h5y-7D-Z2J" secondAttribute="bottom" constant="8" id="z5E-qU-p33"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ppo-Z0-6zS"/>

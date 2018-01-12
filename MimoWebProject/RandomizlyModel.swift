@@ -15,7 +15,8 @@ class RandomizlyModel {
   }
   
   func newNumber() {
-    self.number = Int(arc4random_uniform(6) + 1 )
+    self.tries = 0
+    self.number = Int(arc4random_uniform(100) + 1 )
   }
   
   func guess(_ guess: Int) -> GuessAnswer {
